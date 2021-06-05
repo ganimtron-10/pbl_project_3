@@ -14,8 +14,8 @@ export default class HeaderComponent extends React.Component{
                     <div class="navbar-brand"><h1>Student Management System</h1></div>
 
                     <div class="col-md-3 text-end">
-                        <Link to='/login' className='btn-primary'>LogIn</Link>
-                        <Link to='/signup' className='btn-primary'>SignUp</Link>
+                        <Link to='/login' className='navbar-brand'>LogIn</Link>
+                        <Link to='/signup' className='navbar-brand'>SignUp</Link>
                     </div>
                     </div>
                 </nav>

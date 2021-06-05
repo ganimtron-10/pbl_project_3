@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/bootstrap.min.css"
+import StudentList from "./components/StudentList-component"
 import LogIn from "./components/LogIn-component"
 import SignUp from "./components/SignUp-component"
-// import StudentData from "./components/StudentData-component"
-// import StudentList from "./components/StudentList-component"
 import HeaderComponent from './components/header-component';
 
 function App() {
@@ -13,6 +12,8 @@ function App() {
     <br/>
     <Route path="/login" component={LogIn} />
     <Route path="/signup" component={SignUp} />
+    <br/><br/>
+    <StudentList/>
     </Router>
   );
 }
