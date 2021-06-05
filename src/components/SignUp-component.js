@@ -51,8 +51,10 @@ export default class SignUp extends React.Component{
                     <input type='text'/>
                 </div>
                     <br/><br/>
-                    <input class='btn btn-primary' type='submit' value='Submit'/>
-                    <input class='btn btn-danger' type='reset'/>
+                    <div class="form-group">
+                        <input class='btn btn-primary' type='submit' value='Submit'/>
+                        <input class='btn btn-danger' type='reset'/>
+                    </div>
                 </form>
             </div>
         )
