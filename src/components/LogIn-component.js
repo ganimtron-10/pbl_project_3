@@ -1,6 +1,16 @@
 import React from "react";
 
 export default class LogIn extends React.Component{
+
+    constructor(props){
+        super(props)
+
+        this.state = {
+            username: '',
+            password: ''
+        }
+    }
+
     render(){
         return(
             <div class="container">

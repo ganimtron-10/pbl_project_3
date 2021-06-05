@@ -5,16 +5,22 @@ import  "react-datepicker/dist/react-datepicker.css"
 export default class SignUp extends React.Component{
     render(){
         return(
-            <div>
+            <div class="container">
                 <form>
-                    <label>Name:</label>
-                    <input type='text'/>
+                    <div class="form-group">
+                        <label>Name:</label>
+                        <input type='text'/>
+                    </div>
                     <br/>
-                    <label>Date Of Birth:</label>
-                    <DatePicker/>
+                    <div class="form-group">
+                        <label>Date Of Birth:</label>
+                        <DatePicker/>
+                    </div>
                     <br/><br/>
-                    <input class='btn btn-primary' type='submit' value='Submit'/>
-                    <input class='btn btn-danger' type='reset'/>
+                    <div class="form-group">
+                        <input class='btn btn-primary' type='submit' value='Submit'/>
+                        <input class='btn btn-danger' type='reset'/>
+                    </div>
                 </form>
             </div>
         )
